@@ -1,0 +1,334 @@
+
+.sec1{
+    padding: 24px 0px;
+}
+section{
+    display: block;
+}
+.one{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.two{
+    position: relative;
+    padding: 24px 0px;
+    max-width: 400px;
+    margin: 0px auto;
+    width: 100%;
+}
+.hr1{
+    border-color: black;
+    height: auto;
+    opacity: 0.5;
+}
+hr{
+    overflow: visible;
+}
+.head1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgb(255, 255, 255);
+    padding: 8px 20px;
+    transform: translate(-50%, -50%);
+    color: rgb(35, 21, 53);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+h3{
+    font-weight: normal;
+}
+.three{
+    padding: 0px;
+}
+ @media (min-width: 993px){ 
+.four{
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+} 
+.five{
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0px 12px;
+}
+.six{
+    margin: 0px 0px 60px;
+    min-width: 190px;
+    max-width: 100%;
+    display: inline-block;
+    width: 100%;
+}
+.seven{
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    display: block;
+    margin: 12px 0;
+    height: calc(100% - 24px);
+    cursor: pointer;
+}
+.eight{
+    position: relative;
+    display: block;
+    padding-bottom: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    background-color: #F9F9FA;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+}
+@media screen and (min-width: 769px){ 
+.img1 {
+    max-width: 224px;
+}
+}
+.img1{
+    width: 100%;
+    margin: 0px auto;
+    
+    left: 50%;
+    top: 50%;
+    display: block;
+    transform: translate3D(-50%,-50%,0);
+    overflow: hidden;
+    position: absolute;
+}
+img{
+    border-style: none;
+    vertical-align: middle;
+    border: 0;
+}
+.nine{
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+}
+.ten{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.span2{
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.e{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.f{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.p1{
+    font-size: 1.9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: inherit;
+    color: rgb(79, 50, 103);
+    padding: 0px;
+    margin-bottom: -4px;
+}
+.span3{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: rgb(78, 85, 94);
+    padding-left: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.span4{
+    text-decoration: line-through;
+}
+.a2{
+    margin: 0;
+    padding: 0;
+    display: block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    font-family: 'InterRegular','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: inherit;
+    font-size: inherit;
+}
+a{
+    touch-action: manipulation;
+    background-color: transparent;
+}
+.p2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    line-height: inherit;
+    max-width: calc(100% - 100px);
+    color: #9d9fa4;
+
+}
+.g{
+    position: relative;
+    margin-top: -2px;
+}
+.h{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(100% - 115px);
+}
+.h button {
+    width: 126px;
+    height: 36px;
+    line-height: 36px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin: 0px auto;
+    border-radius: 12px;
+}
+
+.b1{
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251));
+    border: none;
+}
+button{
+    touch-action: manipulation;
+    text-transform: none;
+    overflow: visible;
+}
+/* .emptyWishlistMain {
+    margin-top: 9rem;
+    padding-bottom: 10rem;
+}
+.emptyYourWishlist > h2 {
+    color: #231535;
+    font-family: "BegumRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+}
+.emptyYourWishlist > p {
+    font-size: 2.4rem;
+    color: #231535;
+    font-family: "BegumMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+.sec1{
+    padding: 24px 0px;
+}
+section{
+    display:block;
+}
+.j{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.k{
+    position: relative;
+    padding: 24px 0px;
+    max-width: 400px;
+    margin: 0px auto;
+    width: 100%;
+}
+.hr5{
+    border-color: black;
+    height: auto;
+    opacity: 0.5;
+}
+hr{
+    overflow: visible;
+}
+.head5{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgb(255, 255, 255);
+    padding: 8px 20px;
+    transform: translate(-50%, -50%);
+    color: rgb(35, 21, 53);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.9rem;
+
+}
+/* .p1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.p2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+h3{
+    font-weight: normal;
+}
+.l{
+    padding: 10px;
+    width: 100%;
+    max-width: 640px;
+    margin: 0px auto;
+    text-align: center;
+}
+.span5{
+    display: block;
+    cursor: pointer;
+    background: url(https://assets.cltstatic.com/images/responsive/spriteImage2.png) -58px -1110px / 832px no-repeat;
+    width: 105px;
+    height: 106px;
+    margin: 0px auto 20px;
+}
+.l button{
+    width: 340px;
+    font-size: 1.4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+.b5{
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    margin: 5px 0px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251));
+    border: none;
+    
+}
+button{
+    touch-action: manipulation;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+}
+
+  

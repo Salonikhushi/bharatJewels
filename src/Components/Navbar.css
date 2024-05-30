@@ -1,0 +1,170 @@
+.one{
+    font-size: 1.4rem;
+    z-index: 20;
+    position: fixed;
+    height: 7.2rem;
+    left: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(187, 187, 187) 0px 2px 0.5rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    top: 24px;
+}
+@media screen and (min-width: 993px){
+.two {
+    transform: scale(1);
+    margin-left: 2.8rem;
+}
+}
+.two{
+    background: url(https://assets.cltstatic.com/images/responsive/spriteImage1.png) -562px -378px / 832px no-repeat;
+    display: block;
+    cursor: pointer;
+    width: 1.7rem;
+    height: 1.6rem;
+}
+@media screen and (min-width: 993px){
+    .three {
+        margin-left: 1.4rem;
+    flex-basis: 30%;
+    }
+}
+.three{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+.four{
+    width: 300px;
+    margin-right: 15px;
+    height: 100%;
+    font-size: 0px;
+}
+.three > h2 > div {
+    margin-top: 0px;
+}
+.five{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 2px 0;
+    font-size: 0;
+}
+ .five > img{
+     width: auto;
+    height: auto;
+    
+ }
+
+img{
+    fill: currentColor;
+    vertical-align: middle;
+    width: 1900px;
+    height: 150px; 
+    
+
+}
+.six{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: MuliSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(35, 21, 53);
+    border: none;
+    background-color: rgb(232, 225, 255);
+    border-radius: 12px;
+    width: 342px;
+    height: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.six > span{
+    background: rgb(255, 255, 255);
+    border: 2.11px solid rgb(232, 225, 255);
+    border-radius: 10px;
+    opacity: 1;
+    color: rgb(35, 21, 53);
+}
+.seven{
+    width: 50%;
+    left: 0%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    transition: left 0.2s linear 0s;
+}
+.eight > span{
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.nine:first-child{
+    border-left: none;
+}
+.six > div > span{
+    display: flex;
+    font-size: 1.4rem;
+    color: rgb(79, 50, 103);
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-right: none;
+    transition-delay: 0.9s;
+}
+.nine{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    line-height: 40px;
+    cursor: pointer;
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ten:last-child{
+    border-right:none;
+}
+
+.ten{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    color: rgb(35, 21, 53);
+    text-align: center;
+    background: transparent;
+    border-right: 1px solid rgb(136, 99, 251);
+    line-height: 40px;
+    cursor: pointer;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.eleven{
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: 23px;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: end;
+}
+.e{
+    color: rgb(79, 50, 103);
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.eleven > span{
+    display: inline-block;
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -307px -17px / 340px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+span{
+    margin-bottom: 6px;
+}

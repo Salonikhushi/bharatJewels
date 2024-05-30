@@ -1,0 +1,304 @@
+
+.one{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 37px 50px 40px;
+}
+.two{
+    width: 100%;
+    max-width: 1202px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.three{
+    flex-grow: 1;
+    flex-shrink:1 ;
+    flex-basis: 65%;
+    border-right: 1px solid rgb(216,216,216);
+}
+.four{
+    display:flex;
+    flex-direction: column;
+}
+.five{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 271px;
+}
+.five > img {
+    width: 100%;
+    display: block;
+}
+img{
+    border-style: none;
+}
+.six{
+    font-family: InterBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
+    color: rgb(79, 50, 103);
+    line-height: 26px;
+}
+.seven{
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    color: rgb(158, 158, 158);
+    margin-bottom: 35px;
+}
+.eight{
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 350px;
+    margin: auto;
+
+}
+.a{
+    width:100%;
+
+}
+a{
+    touch-action: manipulation;
+    background-color: transparent;
+    outline: 0;
+    text-decoration: none;
+    color: #33363e;
+}
+.b{
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    border: none;
+    background: linear-gradient(90deg, rgb(229, 110, 235) 0%, rgb(136, 99, 251) 100%);
+    border-radius: 12px;
+    height: 42px;
+    font-size: 1.4rem;
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto 50 px;
+
+}
+button{
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+}
+
+.nine{
+    flex:1 1 35%;
+     padding-left: 20px; 
+}
+/* .ten{
+    text-align:center ;
+} */
+.ten .heading{
+    color: rgb(79, 50, 103);
+    font-size: 1.6rem;
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 16px;
+}
+.eleven{
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0px auto 23px;
+}
+.twelve{
+    width: 100%;
+    padding-top: 67%;
+    background: rgba(222, 214, 251, 0.45);
+}
+.twelve > video{
+    position: absolute;
+    display: block;
+    inset: 0px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+video{
+    vertical-align: middle;
+}
+/* .bottom{
+    display: none;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0px;
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -8px -385px / 340px;
+    width: 75px;
+    height: 75px;
+} */
+.thirteen{
+    position: absolute;
+    width: 100%;
+    background: rgb(246, 243, 249);
+    min-height: 48px;
+    text-align: center;
+    line-height: 24px;
+    left: 0px;
+    bottom: 0px;
+}
+.thirteen > p{
+    display: inline-block;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(79, 50, 103);
+    width: 100%;
+    max-width: 302px;
+    line-height: 16px;
+    padding: 7px 0px;
+}
+.ten .fourteen{
+    display: block;
+    margin: 0px auto 14px;
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -129px -338px / 340px;
+    width: 36px;
+    height: 40px;
+
+}
+.ten .span1{
+    width: 100%;
+    max-width: 271px;
+    margin: 0px auto;
+    display: block;
+    color: rgb(79, 50, 103);
+    font-size: 1.6rem;
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.e{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(136, 99, 251);
+    margin-top: 12px;
+}
+.f{
+    display:flex;
+}
+.e> div > div {
+    height: 18px;
+}
+.g{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: 1.5rem;
+    line-height: 1.7rem;
+    width: 0.7rem;
+}
+.e > div > div span {
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(136, 99, 251);
+}
+.span2{
+    position: absolute;
+    top: 200%;
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.1s ease-in-out 0s;
+}
+.span3{
+    position: absolute;
+    z-index: 0;
+    transition: all 0.1s ease-in-out 0s;
+    top: -200%;
+    opacity: 0.4;
+}
+.span4{
+    position: absolute;
+    z-index: 0;
+    transition: all 0.1s ease-in-out 0s;
+    top: 0px;
+    opacity: 1;
+}
+.h3{
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(79, 50, 103);
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 36px;
+}
+.h{
+    text-align: center;
+    padding: 33px 0px 12px 2px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 322px;
+    margin: 0px auto 100px;
+}
+.a2.Call {
+    padding-right: 40px;
+}
+.a2 {
+    position: relative;
+    color: rgb(78, 85, 94);
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    padding-left: 44px;
+}
+.a2.Call::before {
+    position: absolute;
+    left: 0px;
+    bottom: -11px;
+    content: "";
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -209px -287px / 340px;
+    width: 36px;
+    height: 36px;
+}
+.a2.Chat {
+    padding-right: 40px;
+}
+.a2.Chat::before {
+    position: absolute;
+    left: 0px;
+    bottom: -11px;
+    content: "";
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -251px -287px / 340px;
+    width: 36px;
+    height: 36px;
+}
+.a2.Whatsapp::before {
+    position: absolute;
+    left: 0px;
+    bottom: -11px;
+    content: "";
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -293px -287px / 340px;
+    width: 36px;
+    height: 36px;
+}
+/* @media screen and  (max-width: 993px){
+.one{
+    padding: 64px 20px 40px;
+}
+}
+@media screen and  (max-width: 993px){
+    .two{
+        flex-direction: column;
+    }
+ }
+@media screen and  (max-width: 993px){
+        .three{
+            border-right: unset;
+        }
+ } */
+ @media screen and (min-width: 1366px){ 
+ .nine {
+     padding-left: 70px;
+ }
+ }
